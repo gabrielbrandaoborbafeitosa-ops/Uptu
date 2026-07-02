@@ -5,3 +5,10 @@ progress1.value = range1valor;
 requestAnimationFrame(loop);
 }
 requestAnimationFrame(loop);
+function telacheia1() {
+        const iframe1 = document.getElementById("iframetissue");
+
+    if (iframe1.requestFullscreen) {
+        iframe1.requestFullscreen();
+    }
+}
